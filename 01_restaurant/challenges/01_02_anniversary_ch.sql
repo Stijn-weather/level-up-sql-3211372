@@ -5,3 +5,10 @@
 -- they plan to bring in their party.
 
 -- Hint: SQLite offers the INTEGER and REAL datatypes
+
+CREATE TABLE responses (
+  CustomerID INT(6),
+  NumPeople INT(2)
+  );
+
+  ALTER TABLE responses RENAME TO AttendeeResponses
