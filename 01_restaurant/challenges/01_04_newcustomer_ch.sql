@@ -1,5 +1,11 @@
 -- Add a customer to the restaurant's loyalty program.
+INSERT INTO Customers (Firstname, lastname, Email, Address, City, State, Phone, Birthday)
+VALUES('Anna', 'Smith', 'asmith@samoca.org', '479 Lapis
+Dr.', 'Memphis', 'TN', '555
+-555-1212', '1973-07-21')
 
+DELETE FROM Customers
+Where CustomerID = 101
 -- Use the following information to create a record:
 -- Anna Smith (asmith@samoca.org)
 -- 479 Lapis Dr., Memphis, TN
